@@ -54,7 +54,7 @@ class PixabayController extends GetxController {
 
   Future<List<PixabayImage>> fetchImages(String query, int page) async {
     final url =
-        'https://pixabay.com/api/?key=$apiKey&q=$query&per_page=20&page=$page';
+        'https://pixabay.com/api/?key=$apiKey&q=$query&per_page=30&page=$page';
 
     try {
       // Use Dio for HTTP requests
